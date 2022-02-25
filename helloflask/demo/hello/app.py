@@ -35,4 +35,3 @@ def greet2(name="Programmer"):
 def hello():
     """flask hello help info."""
     click.echo('Hello, Human!')
-    
