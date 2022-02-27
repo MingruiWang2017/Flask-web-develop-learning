@@ -1,5 +1,6 @@
 import os
 from flask import Flask, render_template, flash, redirect, url_for, Markup, request
+from markupsafe import escape
 
 app = Flask(__name__)
 app.secret_key = os.getenv('SECRET_KEY', 'secret string')
@@ -75,7 +76,7 @@ def watchlist_with_static():
 @app.route('/flash')
 def just_flash():
     message = request.args.get('message', "I am flash, who is looking for me?")
-    flash(message)
+    flash(escape(message))
     return redirect(url_for('index'))
 
 
