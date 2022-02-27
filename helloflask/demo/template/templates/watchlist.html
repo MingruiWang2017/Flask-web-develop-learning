@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>{{ user.username }}'s Watchlist</title>
 </head>
 <body>
-$END$
+<a href="{{ url_for('index') }}">&larr; return</a>
+<h2>{{ user.username }}</h2>
+{% if user.bio %}
+    <i>{{ user.bio }}</i>
+{% else %}
+    <i>This user has not provided a bio.</i>
+{% endif %}
+
+{# 下面是电影清单 #}
+<h5>{{ user.username }}'s Watchlist({{ movies|length }}):</h5>
+<ul>
+    {% for movie in movies %}
+        <li>{{ movie.name }} - {{ movie.year }}</li>
+    {% endfor %}
+</ul>
 </body>
 </html>

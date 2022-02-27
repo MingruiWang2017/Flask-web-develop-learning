@@ -1,10 +1,22 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base.html' %}
+
+{% block title %}{{ user.username }}'s Watchlist Pro{% endblock title %}
+
+{% block content %}
+<h2>
+    <img src="{{ url_for('static', filename='avatar.jpg') }}" width="50">{{ user.username }}
+</h2>
+
+{% if user.bio %}
+<i>{{ user.bio }}</i>
+{% else %}
+<i>This user has not provided a bio.</i>
+{% endif %}
+
+<h5>{{ user.username }}'s Watchlist （{{ movies|length }}):</h5>
+<ul>
+    {% for movie in movies %}
+    <li>{{ movie.name }} - {{ movie.year }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
