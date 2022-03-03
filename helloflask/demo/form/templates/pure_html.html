@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Puer HTML Form</h2>
+
+    <form method="post">
+    <label for="username">Username</label><br>
+    <input type="text" name="username" placeholder="username" required><br>
+        <label for="password">Password</label><br>
+    <input type="password" name="passowrd" placeholder="password" required><br>
+    <input id="remember" name="remember" type="checkbox" checked>
+    <label for="remember"><small>Remember me</small></label>
+    <input type="submit" name="submit" value="Log in">
+    </form>
+
+{% endblock %}

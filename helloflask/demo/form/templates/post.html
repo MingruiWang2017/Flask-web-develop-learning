@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% block title %}{{ title }}{% endblock %}
+
+{% block head %}
+    {{ super() }}
+    {# 加载代码内嵌CSS主题 #}
+    {{ ckeditor.load_code_theme() }}
+{% endblock %}
+
+{% block content %}
+    <h1>{{ title }}</h1>
+    <p>{{ body|safe }}</p>
+{% endblock %}

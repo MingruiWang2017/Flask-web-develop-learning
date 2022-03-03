@@ -5,6 +5,9 @@ name = "pypi"
 
 [packages]
 python-dotenv = "*"
+flask-wtf = "*"
+flask-ckeditor = "*"
+wtforms = {extras = ["email"], version = "*"}
 
 [dev-packages]
 watchdog = "*"
