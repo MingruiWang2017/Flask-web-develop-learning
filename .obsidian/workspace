@@ -1,0 +1,122 @@
+{
+  "main": {
+    "id": "6cf60594d90bf472",
+    "type": "split",
+    "children": [
+      {
+        "id": "28be693f35b4f01b",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "chapter04/表单.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fd5062222b3ae065",
+    "type": "split",
+    "children": [
+      {
+        "id": "c278db0e9f1ee1b9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6cfcfca2e47105b5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "fe0f8425ba5d6d4f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0e28f36923898e76",
+    "type": "split",
+    "children": [
+      {
+        "id": "6d61c7f1f6bf428d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "44608c88e867a145",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "chapter04/表单.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "665147d1d95e790e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "chapter04/表单.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6dea5459839cc5be",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "chapter04/表单.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "28be693f35b4f01b",
+  "lastOpenFiles": [
+    "chapter04/表单.md",
+    "chapter05/数据库.md",
+    "chapter05/未命名.md",
+    "README.md",
+    "chapter01/初识Flask.md",
+    "chapter04/images/00063.jpeg",
+    "chapter00/前言.md"
+  ]
+}
