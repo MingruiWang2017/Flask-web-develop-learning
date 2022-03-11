@@ -8,6 +8,8 @@ python-dotenv = "*"
 flask-wtf = "*"
 flask-ckeditor = "*"
 wtforms = {extras = ["email"], version = "*"}
+flask-sqlalchemy = "*"
+flask-migrate = "*"
 
 [dev-packages]
 watchdog = "*"
