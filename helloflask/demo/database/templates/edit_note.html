@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+{% extends 'base.html' %}
+{% from 'macros.html' import form_field %}
+
+{% block title %}Edit Note{% endblock %}
+
+{% block content %}
+    <h2>Edit Note</h2>
+
+    <form method="post">
+        {{ form.csrf_token }}
+        {{ form_field(form.body, rows=5, cols=50) }}
+        {{ form.submit }}<br>
+    </form>
+{% endblock %}

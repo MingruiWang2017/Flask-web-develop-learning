@@ -1,10 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    {% block head %}
+    <meta charset="utf-8">
+    <title>{% block title %}Database - HelloFlask{% endblock %}</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    {% block styles %}
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    {% endblock %}
+    {% endblock %}
 </head>
 <body>
-$END$
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('index') }}">Home</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        {% for message in get_flashed_messages() %}
+        <div class="alert">
+            {{ message }}
+        </div>
+        {% endfor %}
+        {% block content %}{% endblock %}
+    </main>
+<footer>
+    {% block footer %}
+        <small> &copy; 2022 <a href="http://helloflask.com" title="From HelloFalsk">HelloFlask</a> /
+            <a href="https://github.com/MingruiWang2017/Flask-web-develop-learning.git" title="View from Github">GitHub</a>
+        </small>
+    {% endblock %}
+</footer>
+{% block scripts %}{% endblock %}
 </body>
 </html>
