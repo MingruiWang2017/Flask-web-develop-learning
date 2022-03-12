@@ -9,10 +9,23 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "chapter04/表单.md",
+            "file": "chapter05/数据库.md",
             "mode": "source"
           }
-        }
+        },
+        "group": "461ebd3de50df656"
+      },
+      {
+        "id": "58340a3b946f78e6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "chapter05/数据库.md",
+            "mode": "preview"
+          }
+        },
+        "group": "461ebd3de50df656"
       }
     ],
     "direction": "vertical"
@@ -52,7 +65,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "0e28f36923898e76",
@@ -68,7 +82,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "chapter04/表单.md",
+                "file": "chapter05/数据库.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -85,7 +99,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "chapter04/表单.md",
+                "file": "chapter05/数据库.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -97,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "chapter04/表单.md"
+                "file": "chapter05/数据库.md"
               }
             }
           }
@@ -111,8 +125,8 @@
   },
   "active": "28be693f35b4f01b",
   "lastOpenFiles": [
-    "chapter04/表单.md",
     "chapter05/数据库.md",
+    "chapter04/表单.md",
     "chapter05/未命名.md",
     "README.md",
     "chapter01/初识Flask.md",

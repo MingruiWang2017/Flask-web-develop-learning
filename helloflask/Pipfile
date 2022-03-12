@@ -10,6 +10,8 @@ flask-ckeditor = "*"
 wtforms = {extras = ["email"], version = "*"}
 flask-sqlalchemy = "*"
 flask-migrate = "*"
+flask-mail = "*"
+sendgrid = "*"
 
 [dev-packages]
 watchdog = "*"
