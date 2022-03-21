@@ -12,9 +12,15 @@ flask-sqlalchemy = "*"
 flask-migrate = "*"
 flask-mail = "*"
 sendgrid = "*"
+bootstrap-flask = "*"
+flask-moment = "*"
+flask-debugtoolbar = "*"
+unidecode = "*"
+flask-login = "*"
 
 [dev-packages]
 watchdog = "*"
+faker = "*"
 
 [requires]
 python_version = "3.7"
