@@ -1,0 +1,7 @@
+
+[submodule "helloflask/sayhello"]
+	path = helloflask/sayhello
+	url = git@github.com:MingruiWang2017/sayhello.git
+[submodule "helloflask/bluelog"]
+	path = helloflask/bluelog
+	url = git@github.com:MingruiWang2017/bluelog.git
