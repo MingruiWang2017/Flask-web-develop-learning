@@ -5,6 +5,9 @@
 [submodule "helloflask/bluelog"]
 	path = helloflask/bluelog
 	url = git@github.com:MingruiWang2017/bluelog.git
+[submodule "helloflask/albumy"]
+	path = helloflask/albumy
+	url = git@github.com:MingruiWang2017/albumy.git
 [submodule "helloflask/todoism"]
 	path = helloflask/todoism
 	url = git@github.com:MingruiWang2017/todoism.git
