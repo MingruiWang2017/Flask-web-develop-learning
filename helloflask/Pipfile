@@ -17,10 +17,17 @@ flask-moment = "*"
 flask-debugtoolbar = "*"
 unidecode = "*"
 flask-login = "*"
+pillow = "*"
+flask-avatars = "*"
+flask-whooshee = "*"
+authlib = "*"
+flask-babel = "*"
+flask-cors = "*"
 
 [dev-packages]
 watchdog = "*"
 faker = "*"
+httpie = "*"
 
 [requires]
 python_version = "3.7"
