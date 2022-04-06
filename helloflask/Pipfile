@@ -23,6 +23,12 @@ flask-whooshee = "*"
 authlib = "*"
 flask-babel = "*"
 flask-cors = "*"
+flask-socketio = "*"
+eventlet = "*"
+flask-oauthlib = "*"
+markdown = "*"
+bleach = "*"
+pygments = "*"
 
 [dev-packages]
 watchdog = "*"
