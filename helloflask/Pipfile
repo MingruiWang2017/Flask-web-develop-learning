@@ -34,6 +34,9 @@ pygments = "*"
 watchdog = "*"
 faker = "*"
 httpie = "*"
+selenium = "*"
+coverage = "*"
+flake8 = "*"
 
 [requires]
 python_version = "3.7"
