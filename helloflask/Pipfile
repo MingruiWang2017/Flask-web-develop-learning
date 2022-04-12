@@ -29,6 +29,8 @@ flask-oauthlib = "*"
 markdown = "*"
 bleach = "*"
 pygments = "*"
+flask-caching = "*"
+redis = "*"
 
 [dev-packages]
 watchdog = "*"
