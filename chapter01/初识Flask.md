@@ -73,6 +73,7 @@ def hello_world():
 ---
 
 ## 6. URL规则有哪几种设置方法？
+
 1. 一对一绑定：一个URL规则对应一个视图函数；
 2. 多对一绑定：多个不同的URl对应同一个视图函数；
 3. 动态URL：URL中含有变量参数，使用`<变量名>`的形式表示。Flask会将变量传入视图函数，要在视图函数中添加变量接收。
@@ -83,13 +84,11 @@ def hello_world():
 def hello_world():
     return 'Hello World!'
 
-
 # 多个url映射到同一视图函数
 @app.route('/hi')
 @app.route('/hello')
 def say_hello():
     return '<h1>Hello Flask</h1>'
-
 
 # 动态URL
 @app.route('/greet', defaults={'name', 'Programmer'})
@@ -103,6 +102,7 @@ def greet(name):
 def greet2(name="Programmer"):
     return '<h1>Hello, %s!</h1>' % name
 ```
+
 ---
 
 ## 7. 如何启动Flask应用？
