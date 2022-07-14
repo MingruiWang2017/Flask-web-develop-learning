@@ -85,6 +85,11 @@ def watchlist():
 
 Flask还提供了一个`render_template_string()`函数用来渲染模板字符串。
 
+区别：参数不同，用法相同
+
+* render_template：渲染一个指定的模板文件。
+* render_template_string：渲染一个指定的模板字符串。
+
 ***
 
 ## 6. Jinja2接收Flask传来的各种变量后如何调用？

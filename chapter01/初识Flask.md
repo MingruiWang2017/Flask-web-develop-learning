@@ -257,7 +257,7 @@ url_for('index')  # = '/'
 def greet(name):
     return 'Hello %s!' % name
 
-url_for('say_hello', name='Jack')  # = '/hello/Jack'
+url_for('greet', name='Jack')  # = '/hello/Jack'
 ```
 url_for() 方法生成的URL是相对URL，如果想获得绝对URL则需要 `_external=True` 参数。
 
